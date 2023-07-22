@@ -2,7 +2,7 @@
 
 linux
 
-for i in {1..30}; do bitcoin-cli -rpcwallet="/root/.bitcoin/1/" getnewaddress " " "bech32"; done
+for i in {1..30}; do bitcoin-cli -rpcwallet="/root/.bitcoin/walletname/" getnewaddress " " "bech32"; done
 
 
 Win 
@@ -13,7 +13,7 @@ Win
 
 3.run powershell cd F:\folder\coinfolder
 
-4.for ($i=1; $i -le 100; $i++) {.\paybricks-cli -rpcwallet="F:\Alty\Pay-Bricks-sha256\BRK-final" getnewaddress " " "bech32"}
+4.for ($i=1; $i -le 100; $i++) {.\bitcoin-cli -rpcwallet="F:\folder\coinfolder\walletfolder" getnewaddress " " "bech32"}
 
 
 
